@@ -75,9 +75,9 @@ export const reducer = (state, action) => {
       delCatState.categories = delCatState.categories.filter(
         (cat) => cat.id !== action.payload.id
       );
-
+      console.log("yes");
       delCatState.posts = delCatState.posts.map((post) => {
-        post.categories = post.categories?.filter(
+        post.categories = post.categories.filter(
           (cat) => cat.id !== action.payload.id
         );
         return post;

@@ -16,17 +16,18 @@ function CreateCatAddToPost({
 
   const createCategory = (e) => {
     e.preventDefault();
+    let id = uuid();
     dispatch({
       type: "add_category",
       payload: {
-        id: uuid(),
+        id,
         name: newCategory,
       },
     });
     setCatsInField((prevState) => [
       ...prevState,
       {
-        id: uuid(),
+        id,
         name: newCategory,
       },
     ]);
