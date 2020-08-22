@@ -1,0 +1,21 @@
+.category {
+  width: 100%;
+  padding: 10px 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: block;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category__title {
+  flex: 3;
+}
+
+.category__buttons {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+}

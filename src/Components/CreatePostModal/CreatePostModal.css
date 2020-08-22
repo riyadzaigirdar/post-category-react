@@ -1,0 +1,39 @@
+.modal {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.inputfield {
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
+
+.select_category {
+  margin-left: 15px;
+}
+
+.selected_categories {
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.selected_category {
+  cursor: pointer;
+  position: relative;
+  background-color: rgb(228, 160, 248);
+  border: 1px solid rgb(228, 160, 248);
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 2px 0px;
+  text-align: center;
+  -webkit-box-shadow: 0px 5px 28px -5px rgba(117, 104, 117, 1);
+  -moz-box-shadow: 0px 5px 28px -5px rgba(117, 104, 117, 1);
+  box-shadow: 0px 5px 28px -5px rgba(117, 104, 117, 1);
+}
+
+.deleteIcon {
+  position: absolute;
+  right: 5px;
+}
